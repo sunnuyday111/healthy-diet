@@ -21,3 +21,12 @@ python-multipart>=0.0.9
 # healthdata>=0.1.0  # Apple Health支持
 
 # 日志
+loguru>=0.7.0
+
+# MCP相关
+fastmcp>=2.0.0
+uv>=0.8.0
+
+# 其他工具
+python-dateutil>=2.8.2
+huggingface_hub>=0.25.0

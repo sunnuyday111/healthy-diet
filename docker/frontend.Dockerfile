@@ -14,7 +14,7 @@ RUN npm install
 COPY frontend/ .
 
 # 暴露端口
-EXPOSE 5173
+EXPOSE 3000
 
 # 启动vite开发服务器
 CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
