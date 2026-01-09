@@ -1,0 +1,23 @@
+# HelloAgents框架
+hello-agents[protocols]>=0.2.4
+
+# FastAPI和相关依赖
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# HTTP客户端
+httpx>=0.27.0
+aiohttp>=3.10.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# CORS支持
+python-multipart>=0.0.9
+
+# 健康数据集成（可选）
+# healthdata>=0.1.0  # Apple Health支持
+
+# 日志
